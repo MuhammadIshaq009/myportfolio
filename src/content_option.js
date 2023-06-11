@@ -56,6 +56,28 @@ const workingExp = [{
 ];
 
 
+const education = [{
+    title: "Title",
+    where: "Institute's Name",
+    date: "from",
+    enddate:"to"
+},
+{
+    title: "Bachelor of Science in Computer Engineering",
+    where: "Comsats University Islamabad, Lahore Campus",
+    date: "Fall 2016",
+    enddate:"Fall 2020"
+},
+{
+    title: "Intermediate of Computer Science",
+    where: "Punjab College of Science and Commerce, Samundri",
+    date: "2014",
+    enddate:"2016"
+},
+
+
+];
+
 const certifications = [{
     title: "Title",
     where: "Institute's Name",
@@ -165,6 +187,8 @@ const dataportfolio = [{
 
 ];
 
+
+
 const contactConfig = {
     YOUR_EMAIL: "mishaq.connect@gmail.com",
     YOUR_FONE: "(+92)307-8700466",
@@ -177,7 +201,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/MuhammadIshaq009",
+    github: "https://github.com/MuhammadIshaq1998",
     facebook: "https://www.facebook.com/IshaqCH009/",
     linkedin: "https://www.linkedin.com/in/mishaq-work/",
     twitter: "https://twitter.com/_ishaq009?t=YyDukgJjHZbcLs2QE4SdeA&s=09",
@@ -190,6 +214,7 @@ export {
     certifications,
     skills,
     license,
+    education,
     services,
     introdata,
     contactConfig,

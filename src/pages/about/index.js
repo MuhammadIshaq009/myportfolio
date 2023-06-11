@@ -9,6 +9,7 @@ import {
   workingExp,
   license,
   skills,
+  education,
   services,
 } from "../../content_option";
 
@@ -62,6 +63,28 @@ export const About = () => {
             </table>
           </Col>
         </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Education</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {education.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.title}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                      <td>{data.enddate}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+
         <Row className=" sec_sp">
           <Col lg="5">
           <h3 className="color_sec py-4">Apprenticeship and Certifications</h3>
