@@ -5,12 +5,18 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   dataabout,
   meta,
-  worktimeline,
+  certifications,
+  workingExp,
+  license,
   skills,
   services,
 } from "../../content_option";
 
 export const About = () => {
+  const handleClick = (link) => {
+    // Handle the click event, e.g., navigate to the specified link
+    window.open(link, '_blank');
+  };
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -31,23 +37,24 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p style={{ textAlign: 'justify'}}>{dataabout.aboutme}</p>
             </div>
           </Col>
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Professional Experience</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
               <tbody>
-                {worktimeline.map((data, i) => {
+                {workingExp.map((data, i) => {
                   return (
                     <tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
                       <td>{data.where}</td>
                       <td>{data.date}</td>
+                      <td>{data.enddate}</td>
                     </tr>
                   );
                 })}
@@ -55,6 +62,51 @@ export const About = () => {
             </table>
           </Col>
         </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+          <h3 className="color_sec py-4">Apprenticeship and Certifications</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody >
+                {certifications.map((data, i) => {
+                  return (
+                    <tr key={i} href="#" onClick={() => handleClick(data.link)}>
+                      <th scope="row">{data.title}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+              
+            </table>
+          </Col>
+        </Row>
+
+        <Row className=" sec_sp">
+          <Col lg="5">
+          <h3 className="color_sec py-4">License</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody >
+                {license.map((data, i) => {
+                  return (
+                    <tr key={i} href="#" onClick={() => handleClick(data.link)}>
+                      <th scope="row">{data.title}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+              
+            </table>
+          </Col>
+        </Row>
+
+
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
