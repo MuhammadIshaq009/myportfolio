@@ -1,7 +1,7 @@
 import imgg from './storage/hellothisisimage.png';
 import imggg from './storage/hello2.png';
 import imgggg from './storage/hello6.jpg';
-import hello7 from './storage/hello22.png'
+import hello7 from './storage/hello23.png'
 const logotext = "Isaac";
 const meta = {
     title: "Muhammad Ishaq",
@@ -163,7 +163,7 @@ const dataportfolio = [{
     title:"Daily Dak - Government of Punjab",
     img:imgg,
     description: "Daily Dak is a Government of Punjab, Pakistan's web portal. Designed to streamline the communication process, it enables clerical staff of DCO office to register complaints under the direct supervision of the District Coordination Officer (DCO). Feature Includes complaint registration, assignment to the relevant departments, and prompt feedback within 3-7 working days through this cutting-edge platform. I have been assigned a pivotal role in developing this web portal such as defining the data schema, constructing a robust backend architecture, and ensuring seamless retrieval and storage of data in the database.",
-    link: "https://frontendtest.creativesolutionusa.com",
+    link: "https://dailydaak.creativesolutionusa.com",
 },
 
 {
