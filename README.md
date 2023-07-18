@@ -1,6 +1,6 @@
 ### Description
 
-A simple portfolio template for developer/designers built with React. 
+A simple portfolio template for developer built with React. 
 
 ### [live preview](https://isaacbytes.me/)
 
