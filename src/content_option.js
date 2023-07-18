@@ -1,7 +1,7 @@
 import imgg from './storage/hellothisisimage.png';
 import imggg from './storage/hello2.png';
 import imgggg from './storage/hello6.jpg';
-import hello7 from './storage/hello23.png'
+import hello7 from './storage/hello25.png'
 const logotext = "Isaac";
 const meta = {
     title: "Muhammad Ishaq",
