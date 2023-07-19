@@ -42,12 +42,6 @@ const workingExp = [{
     enddate: "Feb 2023"
 },
 {
-    jobtitle: "Data Research Analyst",
-    where: "NC Books USA (Remote)",
-    date: "Dec 2021",
-    enddate: "Aug 2022"
-},
-{
     jobtitle: "Summer Intern",
     where: "Transfopower Industries Pvt Limited Lahore Pakistan",
     date: "Jul 2019",
