@@ -39,8 +39,8 @@ export const Portfolio = () => {
                 }}
               >
                 <h3 style={{ marginBottom: '3.5rem' }}>{data.title}</h3>
-                <div style={{ display: 'flex', flexDirection: 'row', }}>
-                             <div>
+                <div style={{ display: 'flex', flexDirection: 'column', }}>
+                             <div style={{ display: 'flex'}}>
                   <img
                     src={data.img}
                     alt=""
@@ -49,8 +49,8 @@ export const Portfolio = () => {
                   <div style={{ textAlign: 'justify', width: '60%', marginLeft: '5rem' }}>
                     <p>{data.description}</p>
                   </div></div>
-                  <div style={{ textAlign: 'justify', width: '60%', marginLeft: '5rem' }}>
-                    <button onClick={() => handleClick(data.link)}>For Demonstration, Please Click Here.</button>
+                  <div style={{width: '100%', margin:'20px'}}>
+                    <button style={{background-color: 'transparent', color: 'white', border: '1px solid', border-radius: '20px', padding: '10px 20px', }} onClick={() => handleClick(data.link)}>For Demonstration, Please Click Here.</button>
                   </div>
                 </div>
 
