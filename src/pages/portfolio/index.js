@@ -40,6 +40,7 @@ export const Portfolio = () => {
               >
                 <h3 style={{ marginBottom: '3.5rem' }}>{data.title}</h3>
                 <div style={{ display: 'flex', flexDirection: 'row', }}>
+                             <div>
                   <img
                     src={data.img}
                     alt=""
@@ -47,7 +48,7 @@ export const Portfolio = () => {
                   />
                   <div style={{ textAlign: 'justify', width: '60%', marginLeft: '5rem' }}>
                     <p>{data.description}</p>
-                  </div>
+                  </div></div>
                   <div style={{ textAlign: 'justify', width: '60%', marginLeft: '5rem' }}>
                     <button onClick={() => handleClick(data.link)}>For Demonstration, Please Click Here.</button>
                   </div>
