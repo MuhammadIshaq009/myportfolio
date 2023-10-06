@@ -92,11 +92,12 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    height: 482px !important;
+    height: 340px !important;
+    width:340px;
+    border-radius:50%;
     background-position: 50%;
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 580px;
 }
 
 .ac_btn {
