@@ -33,7 +33,7 @@ const workingExp = [{
     jobtitle: "Full Stack Engineer",
     where: "Creative Solutions International, Faisalabad Pakistan",
     date: "Mar 2023",
-    enddate: "---"
+    enddate: "till date"
 },
 {
     jobtitle: "MERN Developer - Trainee",
@@ -138,6 +138,18 @@ const skills = [
         value: 65,
     },
     {
+        name: "TensorFlow",
+        value: 65,
+    },
+    {
+        name: "Keras",
+        value: 60,
+    },
+    {
+        name: "MATPLOTLib",
+        value: 70,
+    },
+    {
         name: "MATLAB",
         value: 50,
     },
@@ -151,9 +163,21 @@ const services = [{
     title: "Data Analysis",
     description: "Leverage the power of data with my data analysis services. I specializes in R and Python, utilizing advanced analytics techniques and visualization tools like matplotlib. Gain valuable insights, make data-driven decisions, and unlock the true potential of your business with our top-notch data analysis services. Experience the difference of data-driven excellence today.",
 },
+{
+    title: "Machine Learning",
+    description: "I'm a passionate machine learning enthusiast with a knack for turning data into actionable insights. I specialize in using powerful tools like TensorFlow and Keras to create intelligent solutions that make sense of complex data. I'm here to help you harness the potential of machine learning for your projects. Let's work together to unlock the magic of data and bring your ideas to life!",
+},
 ];
 
 const dataportfolio = [{
+    title:"Inventory Management and Automation System - 3PL USA",
+    img:imgg,
+    description: "inventory Management System is a web-based solution to manage warehouse inventories. It plays a
+bridge role between a client whose inventories are being managed and the warehouse staff. It also
+offers the role of admin/supervisor.",
+    link: "https://crm.3plcsi.com",
+},
+    {
     title:"Daily Dak - Government of Punjab",
     img:imgg,
     description: "Daily Dak is a Government of Punjab, Pakistan's web portal. Designed to streamline the communication process, it enables clerical staff of DCO office to register complaints under the direct supervision of the District Coordination Officer (DCO). Feature Includes complaint registration, assignment to the relevant departments, and prompt feedback within 3-7 working days through this cutting-edge platform. I have been assigned a pivotal role in developing this web portal such as defining the data schema, constructing a robust backend architecture, and ensuring seamless retrieval and storage of data in the database.",
