@@ -50,7 +50,7 @@ export const Portfolio = () => {
                     <p>{data.description}</p>
                   </div></div>
                   <div style={{width: '100%', margin:'20px'}}>
-                    <button style={{background-color: 'transparent', color: 'white', border: '1px solid', border-radius: '20px', padding: '10px 20px', }} onClick={() => handleClick(data.link)}>For Demonstration, Please Click Here.</button>
+                    <button style={{backgroundColor: 'transparent', color: 'white', border: '1px solid', borderRadius: '20px', padding: '10px 20px', }} onClick={() => handleClick(data.link)}>For Demonstration, Please Click Here.</button>
                   </div>
                 </div>
 
