@@ -173,9 +173,7 @@ const services = [{
 const dataportfolio = [{
     title:"Inventory Management and Automation System - 3PL USA",
     img:img,
-    description: "inventory Management System is a web-based solution to manage warehouse inventories. It plays a
-bridge role between a client whose inventories are being managed and the warehouse staff. It also
-offers the role of admin/supervisor.",
+    description: "inventory Management System is a web-based solution to manage warehouse inventories. It plays a bridge role between a client whose inventories are being managed and the warehouse staff. It also offers the role of admin/supervisor.",
     link: "https://crm.3plcsi.com",
 },
     {
