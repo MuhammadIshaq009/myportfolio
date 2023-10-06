@@ -1,6 +1,7 @@
 import imgg from './storage/hellothisisimage.png';
 import imggg from './storage/hello2.png';
 import imgggg from './storage/hello6.jpg';
+import img from './storage/img.png';
 import hello7 from './storage/hello25.png'
 const logotext = "Isaac";
 const meta = {
@@ -171,7 +172,7 @@ const services = [{
 
 const dataportfolio = [{
     title:"Inventory Management and Automation System - 3PL USA",
-    img:imgg,
+    img:img,
     description: "inventory Management System is a web-based solution to manage warehouse inventories. It plays a
 bridge role between a client whose inventories are being managed and the warehouse staff. It also
 offers the role of admin/supervisor.",
