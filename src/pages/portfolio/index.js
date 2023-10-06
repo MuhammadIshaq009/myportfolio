@@ -30,7 +30,6 @@ export const Portfolio = () => {
             return (
               <div
                 key={i}
-                onClick={() => handleClick(data.link)}
                 style={{
                   display: 'flex',
                   flexDirection: 'column',
@@ -48,6 +47,9 @@ export const Portfolio = () => {
                   />
                   <div style={{ textAlign: 'justify', width: '60%', marginLeft: '5rem' }}>
                     <p>{data.description}</p>
+                  </div>
+                  <div style={{ textAlign: 'justify', width: '60%', marginLeft: '5rem' }}>
+                    <button onClick={() => handleClick(data.link)}>For Demonstration, Please Click Here.</button>
                   </div>
                 </div>
 
